@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/Global.css">
     <title>L'artisanat</title>
+    <script src="https://kit.fontawesome.com/9b8ce6708a.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
     <nav>
+      <button class="hamburger"><i class="fa-solid fa-bars"></i></button>
       <ul class="listContainer">
         <li><a href="#">Home</a></li>
         <li><a href="./pages/Nosotros.html">Nosotros</a></li>
@@ -44,11 +46,11 @@
         </p>
       </div>
       <div class="product-image">
-        
+
       </div>
     </section>
   </main>
-  
+
 
   <footer>
     <div class="social-links">
@@ -58,4 +60,19 @@
     </div>
   </footer>
 </body>
+<script>
+  document.querySelector('.hamburger').addEventListener('click', function() {
+    let icon = document.querySelector('.hamburger i');
+    let list = document.querySelector('.listContainer');
+    list.classList.toggle('active');
+
+    if (list.classList.contains('active')) {
+      icon.classList.remove('fa-bars');
+      icon.classList.add('fa-times');
+    } else {
+      icon.classList.remove('fa-times');
+      icon.classList.add('fa-bars');
+    }
+  });
+</script>
 </html>
