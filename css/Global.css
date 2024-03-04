@@ -170,3 +170,59 @@
     .fa-times {
       font-size: 20px;
     }
+    /* Nosotros */
+    .aboutUs{
+        width: 40%;
+        margin-left:40px ;
+        
+    }
+    .photos1 {
+        margin-top: 100px;
+        margin-bottom: 200px;
+        max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
+        max-height: 400px; /* Establece la altura máxima de las imágenes */
+    }
+    .photos {
+       
+        margin-top: 100px;
+        margin-bottom: 200px;
+        max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
+        max-height: 400px; /* Establece la altura máxima de las imágenes */
+    }
+    /* Productos */
+    .gallery-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .gallery {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .artwork {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+        width: 300px; /* Define el ancho de cada obra de arte */
+    }
+    
+    .artwork:hover {
+        transform: scale(1.05);
+    }
+    
+    .artwork img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px; /* Agrega bordes redondeados a las imágenes */
+    }
+    
+    .artwork p {
+        margin: 10px 0;
+    }
+    /* Servicio*/
