@@ -1,6 +1,7 @@
 .aboutUs{
     width: 40%;
     margin-left:40px ;
+    
 }
 .hamburger {
     display: none;
@@ -44,3 +45,16 @@
   .fa-times {
     font-size: 20px;
   }
+  .photos1 {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
+    max-height: 400px; /* Establece la altura máxima de las imágenes */
+}
+.photos {
+   
+    margin-top: 100px;
+    margin-bottom: 200px;
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
+    max-height: 400px; /* Establece la altura máxima de las imágenes */
+}
